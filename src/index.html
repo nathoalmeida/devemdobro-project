@@ -13,9 +13,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
 
-    <!--inserir link do CSS--> 
+  
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 
-    <title>Document</title>
+    <title>Super Mario Bros - O Filme</title>
 </head>
 
 <body>
@@ -46,6 +49,15 @@
             <button class="botao-trailer">Veja o trailer</button>
         </div>
         <img class="mario" src="./imagens/super-mario-chars.png">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/watch?v=Cb4WV4aXBpk"
+                title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
     </main>
 </body>
 
